@@ -30,7 +30,19 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
+# My gems
+
+gem 'activeadmin'
+gem "meta_search",    '>= 1.1.0.pre'
+
+
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
+  gem 'rspec-rails'
+	gem 'capybara'
+	gem 'guard-rspec'
+	gem 'growl_notify'
+	#gem 'minitest'
+	gem 'launchy'
 end
