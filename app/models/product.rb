@@ -1,5 +1,5 @@
 class Product < ActiveRecord::Base
-  has_one :category
-  has_one :group
-  has_one :manufacturer
+  belongs_to :category
+  belongs_to :group
+  belongs_to :manufacturer
 end
