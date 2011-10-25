@@ -1,0 +1,8 @@
+<h2>Upload Groups CSV File</h2>
+
+<%= form_tag({:action => :import_csv}, :multipart => true) do %>
+  <%= file_field_tag 'file' %>
+	<%= submit_tag "Upload File" %>
+<% end %>
+
+<%= debug(params) if Rails.env.development? %>
