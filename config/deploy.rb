@@ -2,7 +2,7 @@ set :application, "Pioneer App"
 set :repository,  "."
 set :deploy_via, :copy
 
-set :scm, :git
+set :scm, :none
 
 set :user, "passenger"
 set :use_sudo, false
